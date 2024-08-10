@@ -1,8 +1,31 @@
-.hamburgersCSS {
+.hamburger-list {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
-    background-size: cover;
-    background-position: center;
+    margin-top: 20px;
+}
+
+.hamburger-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.hamburger-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hamburger-item h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.hamburger-item p {
+    margin: 5px 0;
+    color: #555;
 }
