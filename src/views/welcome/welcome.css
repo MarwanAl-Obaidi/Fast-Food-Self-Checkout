@@ -4,4 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-image: url('https://fast-food-self-checkout-api.onrender.com/welcomeCover.jpg');
+    background-size: cover;
+    background-position: center;
 }
