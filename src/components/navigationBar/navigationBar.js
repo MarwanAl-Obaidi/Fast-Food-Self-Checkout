@@ -9,6 +9,9 @@ function NavigationBar() {
                 <li>
                     <Link to="/featured">Featured</Link>
                 </li>
+                <li>
+                    <Link to="/hamburgers">Hamburgers</Link>
+                </li>
             </ul>
         </nav>
     );
